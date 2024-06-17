@@ -44,3 +44,13 @@ BLOOD is a web platform designed to connect blood donors and recipients, bridgin
 * Daily stand-up meetings and weekly progress reports will be used to track progress and address any issues.
 
 **This detailed scope of work provides a clear understanding of the backend development responsibilities for the BLOOD web application. It emphasizes the importance of security, scalability, and efficient data management. By focusing on these key areas, the backend team can contribute to building a successful and impactful platform.**
+
+
+** the database for the project hase been creted and hosted already see datails below **
+
+$username: "if0_36742666";
+$password: "uPUoywvb0W";
+$Servername: "185.27.134.165"; 
+dbname: "if0_36742666_blood";
+
+** details of login / database access are highly confidential and as such must be handled with care and kept discrate, it must at for any reason be shared with another person without the writen authorization of the author and owner of the project **
