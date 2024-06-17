@@ -1,0 +1,81 @@
+*{
+    box-sizing: content-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+menu{
+    display: flex;
+    float: right;
+}
+
+menu a {
+    text-decoration: none;
+
+}
+li::marker{
+    display: none;
+}
+
+footer #About{
+    background-color: wheat;
+    width: 60%;
+    height: fit-content;
+    padding: 2%;
+    margin: 3%;
+}
+
+#About h3{
+    text-align: center;
+    text-decoration: double;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#About blockquote, #About p{
+    padding: 2%;
+    font-size: 20px;
+}
+
+footer #contact{
+    width:65%;
+    margin: 3%;
+    background-color: wheat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#contact form{
+    background-color: transparent;
+    border: none;
+
+}
+
+label{
+    display: block;
+}
+
+input[type="text"], input[type="email"], textarea{
+    display: block;
+    background-color: snow;
+    border: none;
+    outline: none;
+    border-radius: 25%;
+    border-top-right-radius: 30%;
+    border-right: none;
+    margin: 2%;
+    height: 30px;
+    height: 90px;
+    width: 350px;
+}
+
+input[type="text"]:active, input[type="email"]:active, textarea:active{
+   box-shadow: 0 0 70px 0 black solid;
+   box-decoration-break: clone;
+}
