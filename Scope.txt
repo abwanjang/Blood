@@ -53,6 +53,7 @@ $password: "uPUoywvb0W";
 $Servername: "185.27.134.165"; 
 dbname: "if0_36742666_blood";
 
+
 ** details of login / database access are highly confidential and as such must be handled with care and kept discrate, it must at for any reason be shared with another person without the writen authorization of the author and owner of the project **
 
 **Function of the database**
@@ -66,4 +67,4 @@ the database should keep track of the time of last donation so it can calculate 
 
 durrint the record creation for a donor, php should some check like the age check, gender check and health check, by requesting for evidence of age, gender and health status " the record will be ccreated within 24 hours after the check are completed and validated by a personel in charge, so the donor's details will be sent to verifivation and if all good the row ceated the donor will be notified in the notificationpage and email.
 
-## id any question please rech out to my whats app and if any adjust me ts will be made i'll let you know
+## if any question please rech out to my whats app and if any adjust me ts will be made i'll let you know

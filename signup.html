@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup</title>
+        <meta charset="UTF-8">
+        <meta lang="en">
+        <meta name="discription" content="Signup to blood">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body> 
+        <!-- button to login page-->
+        <a href="login.html"> <button type="button" class="loginButton">CONTINUE DONATING</button></a>
+
+
+        <h4>BECOOME A DONOR</h4>
+       <form action="#" method="post" id="form">
+
+        <marquee> Blood donation is more than an act of kindness,  <em>i'ts a gift of life</em> <span></span>  ...Every Drop Counts...</marquee>
+
+        <input name="idNum" type="text" placeholder="ID Card Number" required minlength="16" maxlength="20" spellcheck="true">
+
+        <input name="donorName" type="text" placeholder="Full Name" required>
+
+        <input name="age" type="int" placeholder="Age" maxlength="3" required>
+
+        <select name="gender" required >
+            <option value="">--SELECT A GENDER--</option>
+            <option value="MALE">MALE</option>
+            <option value="FEMALE">FEMALE</option>
+        </select>
+
+        <input name="email" type="email" placeholder="E-mail" maxlength="50" required>
+
+        <input name="tel" type="bigint" placeholder="Tel: " required>
+
+        <select name="bloog_grp" required >
+            <option value="">--SELECT A BLOOD GROUP--</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB">AB</option>
+        </select>
+
+        <input name="adress" type="text" placeholder="Town" required>
+        
+        <input name="POB" type="text" placeholder="Place of Birth (optional)" >
+
+        <textarea name="about_self" placeholder="About YOU (optional)"></textarea>
+
+        <input name="password" type="password" placeholder="Password" required>
+
+        <input name="confirm_password" type="password" placeholder="confirm Password" required>
+
+        <button type="submit">Become A Donnor</button>
+
+       </form> 
+
+    </body>
+</html>
