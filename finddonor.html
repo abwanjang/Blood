@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Find a Donor: Near you</title>
+        <meta lang="en">
+        <meta charset="UTF-8">
+        <meta name="description" content="find a donor Near me, avalible donors near me">
+        <link rel="stylesheet" href="finddonor_style.css">
+    </head>
+    
+    <body>
+         <!--navigation menu though the site-->
+         <menu>
+            <a href="index.html"><li>home</li></a> 
+            <a href="#"><li>find donor</li></a>
+            <a href="request.html"><li>request</li></a>
+            <a href="donate.html"><li>donate</li></a>
+            <a href="notification.html"><li>notification</li></a>
+            <a href="profile.html"><li>profile</li></a>
+        </menu>
+
+        <!--main body-->
+        <div class="container-content">
+            <video style="width:100%; height: 100%; object-fit: cover;" autoplay loop>
+                <source src="vedios\Blood-donation-campaign-4K-animation-free-download.mp4" type="vedio/mp4">
+            </video>
+
+            <div class="sections">
+                <section class="search">
+                    <h3> Find Donors arround you</h3>
+    
+                    <form>
+                        <label for="bloodSelect">Choose a blood group</label><br>
+                        <select name="bloodSelect" required>
+                            <option value="">--SELECT --</option>
+                            <option value="O+">O+</option>
+                            <option value="O-">O-</option>
+                            <option value="A+">A+</option>
+                            <option value="A-">A-</option>
+                            <option value="B+">B+</option>
+                            <option value="B-">B-</option>
+                            <option value="AB">AB</option>
+                        </select><BR>
+                        
+                        <label for="MYlocation">Enter Your Location</label><br>
+                        <input type="text" name="myLocation" required><br>
+    
+                        <input type="checkbox" value="yes" name="findWithGps">Find Width Gps<br>
+    
+                        <button type="submit">Search</button>
+                    </form>
+                    
+                </section>
+    
+    
+                <section class="result">
+                    <h3>Donors arround you</h3>
+    
+                </section>
+            </div>
+
+        </div>
+    </body>
+</html>
