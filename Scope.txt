@@ -53,4 +53,18 @@ $password: "uPUoywvb0W";
 $Servername: "185.27.134.165"; 
 dbname: "if0_36742666_blood";
 
+
 ** details of login / database access are highly confidential and as such must be handled with care and kept discrate, it must at for any reason be shared with another person without the writen authorization of the author and owner of the project **
+
+**Function of the database**
+Having said php my sql will be used, a genaral databasewill be created to handle all the registered users of website 
+the enter to the index.html page befor registration or login, upon click to search button in thr become a find a donoe page or 
+the join button in the become a donor page or the profile, or on the safe a life today button on the home page(index.html), the user is confirmed registed or not,  if not is directed to he loginpage to login or create account. 
+
+uponsuccess they may procees, the,  if the become donor page is called from any of its buttons the use further details are collected and stored in a new table called donor, (note: the first table is called users and the secound is call donors). if he is a one time donation the after the first donation is met the one time donoer is removed from the table to prevent the name from poping ip upon avaliable donor shearch, but if not a one time documentation then the name is retained in the table.
+
+the database should keep track of the time of last donation so it can calculate the time of next donatio, so a person should not donate more that once within the unsave pariod of danation, the time is calculated based og the gender, abount of blood and age(age is need be), eg a woman may not called up to donate morethe 2pund of blood(**please confirm this with a medical practitional**).
+
+durrint the record creation for a donor, php should some check like the age check, gender check and health check, by requesting for evidence of age, gender and health status " the record will be ccreated within 24 hours after the check are completed and validated by a personel in charge, so the donor's details will be sent to verifivation and if all good the row ceated the donor will be notified in the notificationpage and email.
+
+## if any question please rech out to my whats app and if any adjust me ts will be made i'll let you know
