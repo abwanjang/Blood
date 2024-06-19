@@ -25,7 +25,7 @@ body{
     display: inline-block;
 }
 
-input[type="text"], input[type="email"], input[type="int"], input[type="bigint"],select, textarea{
+input[type="text"], input[type="email"], input[type="int"], input[type="bigint"],select, textarea, input[type="password"]{
     display: block;
     width: 350px;
     height: 50px;
@@ -64,5 +64,37 @@ button[type="submit"]{
     font-size: 20px;
     border: none;
     border-radius: 20%;
+}
+
+.loginButton{
+    display: block;
+    background-color:rgb(68, 3, 3);
+    outline: none;
+    border: 2px solid black;
+    color: snow;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px 0;
+    position:fixed;
+    right: 20px;
+    top:30px
+}
+
+span {
+    display: flex;
+}
+span p, .checkbox{
+    color: snow;
+    font-size: 16px;
+    top:18px;
+}
+
+.Forgot{
+    margin-left: 30%;
+}
+
+input[type="checkerbox"]{
+    color: snow;
+    top:18px;
+    display: inline-block;
     
 }
