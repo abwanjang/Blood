@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #b5b6b7;
+    background-color: #ff0000;
     font-family: sans-serif;
 }
 
@@ -31,11 +31,22 @@ a li{
     align-items: center;
     text-align: center;
     padding: 2%;
+    height: fit-content;
+ }
+ .container-content .sections{
+    display: flex;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    width: fit-content;
  }
 
- .container-content .search{
-    width: 500px;
-    height: 500px;
+ .container-content .sections .search{
+    width: 450px;
+    height: 492px;
     padding: 2%;
     border: 2px red solid;
     margin-right: 2%;
@@ -45,6 +56,11 @@ form{
     align-items: left;
     text-align: left;
 }
+
+form label{
+    margin-top: 9%;
+}
+
  input[type="text"], select{
     width: 350px;
     height: 50px;
@@ -58,4 +74,22 @@ form{
     font-weight: 500;
     font-family: fantasy;
     letter-spacing: 10px;
+ }
+
+ button[type="submit"]{
+    border-radius: 50px;
+    width: 110px;
+    height: 28px;
+    margin-top: 20px;
+    margin-left: 140px;
+
+ }
+
+ .result{
+    width: 450px;
+    height: 492px;
+    padding: 2%;
+    border: 2px red solid;
+    margin-right: 2%;
+    backdrop-filter: blur(80);
  }
