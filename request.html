@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blood: Make Request </title>
+        <meta lang="en">
+        <meta charset="UTF-8">
+        <meta name="description" content="Make a blood requst">
+        <link rel="stylesheet" href="request_style.css">
+    </head>
+
+    <body>
+        <!--navigation menu though the site-->
+        <menu>
+            <a href="index.html"><li>home</li></a> 
+            <a href="finddonor.html"><li>find donor</li></a>
+            <a href="#"><li>request</li></a>
+            <a href="donate.html"><li>donate</li></a>
+            <a href="notification.html"><li>notification</li></a>
+            <a href="profile.html"><li>profile</li></a>
+        </menu>
+
+        <form method="get">
+
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" required><br>
+
+            <label for="bloodSelect">Choose a blood group</label><br>
+                <select name="bloodSelect" required>
+                    <option value="">--SELECT --</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB">AB</option>
+                </select><BR>
+                
+                <label for="units">Number of Units</label><br>
+                <input type="number" name="units" required><br>
+                    
+                <label for="MYlocation">Enter Your Location</label><br>
+                <input type="text" name="myLocation" required><br>
+
+                <label for="Hosoital">Hosoital Name</label><br>
+                <input type="text" name="hosoitaname" required><br>
+            
+                <label for="genderSelect">Gender</label><br>
+                <select name="genderSelect">
+                    <option value="">Rather not say</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select><BR>
+
+                <label for="datetime">Date and time</label><br>
+                <input type="datetime" name="datetime" required><br>
+
+                <input type="checkbox" value="yes" name="sendWithGps">Send Width Gps<br>
+
+                <button type="submit"><i class="fas fa-search"></i>Send</button>
+        </form>
+    
+    </body>
+</html>
