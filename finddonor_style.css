@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #ff0000;
+    font-family: sans-serif;
+}
+
+menu{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    align-items: right;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+a li{
+    text-transform: capitalize;
+    color: rgb(65, 5, 5);
+    float: right;
+    margin-left: 20px;
+ }
+
+ .container-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+    height: fit-content;
+ }
+ .container-content .sections{
+    display: flex;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    width: fit-content;
+ }
+
+ .container-content .sections .search{
+    width: 450px;
+    height: 492px;
+    padding: 2%;
+    border: 2px red solid;
+    margin-right: 2%;
+ }
+form{
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+
+form label{
+    margin-top: 9%;
+}
+
+ input[type="text"], select{
+    width: 350px;
+    height: 50px;
+    border: 1.5px rgb(144, 15, 15) solid;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 2%;
+    color:rgb(144, 15, 15);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: fantasy;
+    letter-spacing: 10px;
+ }
+
+ button[type="submit"]{
+    border-radius: 50px;
+    width: 110px;
+    height: 28px;
+    margin-top: 20px;
+    margin-left: 140px;
+ }
+
+ .i{
+    margin-right:9px;
+ }
+
+ .result{
+    width: 450px;
+    height: 492px;
+    padding: 2%;
+    border: 2px red solid;
+    margin-right: 2%;
+    backdrop-filter: blur(80);
+ }

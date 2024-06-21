@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #b4b1b1;
+    font-family: sans-serif;
+}
+
+menu{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    align-items: right;
+    padding: 10px;
+    position: fixed;
+    top: 10PX;
+    right: 2%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+a li{
+    text-transform: capitalize;
+    color: rgb(65, 5, 5);
+    float: right;
+    margin-left: 20px;
+ }
+
+ input[type="text"],input[type="number"],input[type="datetime"], select{
+    width: 350px;
+    height: 50px;
+    border: 1.5px rgb(144, 15, 15) solid;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 2%;
+    color:rgb(144, 15, 15);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: fantasy;
+    letter-spacing: 10px;
+ }
+
+ button[type="submit"]{
+    border-radius: 50px;
+    width: 110px;
+    height: 28px;
+    margin-top: 20px;
+    margin-left: 140px;
+ }
+ form{
+    background-color: antiquewhite;
+    width: 500px;
+    padding: 2%;
+    margin-top: 20px;
+ }
