@@ -14,7 +14,6 @@ menu{
     text-align: right;
     align-items: right;
     padding: 10px;
-    position: fixed;
     top: 10PX;
     right: 2%;
     display: block;
@@ -43,6 +42,7 @@ a li{
     font-weight: 500;
     font-family: fantasy;
     letter-spacing: 10px;
+    text-align: center;
  }
 
  button[type="submit"]{
@@ -57,4 +57,15 @@ a li{
     width: 500px;
     padding: 2%;
     margin-top: 20px;
+    left: 50%;
+ }
+
+ .image{
+    background-image: url("https://img.freepik.com/free-photo/healthcare-concept-clinic_23-2151117930.jpg?t=st=1719050353~exp=1719053953~hmac=25f3a409ac5da5a77e20207517baf42b42242978f2ad2f7f0eb8b2382b066c89&w=900");
+    height: 500px;
+    width: 100%;
+    padding: 3%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
  }

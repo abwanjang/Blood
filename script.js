@@ -51,6 +51,15 @@ window.onload = function() {
     // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.15em solid orange; color:rgb(175, 5, 5); font-famiy: monospace; font-weight: bold}";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.15em solid orange; color:rgb(175, 5, 5); font-famiy: monospace; font-weight: bold; background-color:black}";
     document.body.appendChild(css);
 };
+
+
+//toggle show button
+const toggleButton = document.getElementsById("toggleButton");
+const content = document.getElementById("content");
+
+toggleButton.addEventListener('click', function() {
+  content.classList.toggle('hidden');
+});
