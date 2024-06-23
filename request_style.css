@@ -14,7 +14,6 @@ menu{
     text-align: right;
     align-items: right;
     padding: 10px;
-    position: fixed;
     top: 10PX;
     right: 2%;
     display: block;
@@ -43,6 +42,7 @@ a li{
     font-weight: 500;
     font-family: fantasy;
     letter-spacing: 10px;
+    text-align: center;
  }
 
  button[type="submit"]{
@@ -57,4 +57,15 @@ a li{
     width: 500px;
     padding: 2%;
     margin-top: 20px;
+    left: 50%;
+ }
+
+ .image{
+    background-image: url("images\\healthcare-concept-clinic.jpg");
+    height: fit-content;
+    width: 100%;
+    padding: 3%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
  }
