@@ -61,8 +61,8 @@ a li{
  }
 
  .image{
-    background-image: url("images\\healthcare-concept-clinic.jpg");
-    height: fit-content;
+    background-image: url("https://img.freepik.com/free-photo/healthcare-concept-clinic_23-2151117930.jpg?t=st=1719050353~exp=1719053953~hmac=25f3a409ac5da5a77e20207517baf42b42242978f2ad2f7f0eb8b2382b066c89&w=900");
+    height: 500px;
     width: 100%;
     padding: 3%;
     position: relative;
